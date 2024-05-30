@@ -1,10 +1,16 @@
 #!/bin/bash
 echo 'Running Script'
 DIR=~/.ssh/
-#Проверка на существование папки и .ssh ключей
+KEYS=*.pub
+echo "Check $DIR"
 if ! [ -d $DIR ]; then
-echo "make dir $DIR"
-mkdir .ssh
+echo "Make dir $DIR"
+mkdir $DIR
 else
-echo "directory $DIR is assigned"
+echo "Dir= $DIR is assigned"
 fi
+echo "Copy keys"
+cp $KEYS $DIR
+echo "Done"
+
+
