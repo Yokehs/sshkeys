@@ -484,4 +484,196 @@ drwxrwxr-x  8 yokeh yokeh  4096 May 30 21:39 [01;34m.git[0m/
 -rw-r--r--  1 yokeh yokeh   107 May 30 21:38 ubuntu_vm.pub
 -rw-rw-r--  1 yokeh yokeh   576 May 30 21:23 win_main.pub
 [?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ c[Knna[K[Kano del_usr.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                       del_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2d[32m$[39m(B[m[?25l[?12l[?25h[K[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[36m1[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m![39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hU[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25hR[?25l[22d[K[?12l[?25h[3;5H[32m=[39m(B[m[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[4d[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33mD"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ml"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mu"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h[C[?25l[5d[?12l[?25h[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                       del_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2d[32m$[39m(B[m[?25l[?12l[?25h[K[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[36m1[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m![39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hU[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25hR[?25l[22d[K[?12l[?25h[3;5H[32m=[39m(B[m[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[4d[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33mD"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ml"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mu"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h[C[?25l[5d[?12l[?25h[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h d[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h U[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m#"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mU"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mS"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mE"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mR"[39m(B[m[?25l[?12l[?25h[5d[?25l[?12l[?25h(B[0;1m[31m$U[39m(B[m[?25l[?12l[?25h(B[0;1m[31mS[39m(B[m[?25l[?12l[?25h(B[0;1m[31mE[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 4 lines ](B[m[?12l[?25h[5;19H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano del_usr.sh[1P del_usr.sh[1P del_usr.sh[1P del_usr.sh[1P del_usr.shb del_usr.sha del_usr.shs del_usr.shg del_usr.sh
+[?2004lCommand 'basg' not found, did you mean:
+  command 'bamg' from deb rheolef (7.2-3build3)
+  command 'bash' from deb bash (5.2.21-2ubuntu1)
+Try: sudo apt install <deb name>
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ basg del_usr.sh[C[1P del_usr.shh del_usr.sh
+[?2004lDel test
+info: Removing crontab ...
+info: Removing user `test' ...
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git add -A
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git commit -a -m ""a"d"d"/"d"e"l" "u"s"e"r"
+[?2004l[master 7b84ebb] add/del user
+ 3 files changed, 447 insertions(+), 1 deletion(-)
+ create mode 100644 add_usr.sh
+ create mode 100644 del_usr.sh
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git push
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 11.84 KiB | 5.92 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Yokehs/sshkeys.git
+   ee3ec55..7b84ebb  master -> master
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd '[K/
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: /[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/[00m$ ll
+[?2004ltotal 4194404
+drwxr-xr-x  23 root root       4096 Apr 27 18:20 [0m[01;34m.[0m/
+drwxr-xr-x  23 root root       4096 Apr 27 18:20 [01;34m..[0m/
+lrwxrwxrwx   1 root root          7 Apr 22 17:08 [01;36mbin[0m -> [01;34musr/bin[0m/
+drwxr-xr-x   2 root root       4096 Feb 26 16:58 [01;34mbin.usr-is-merged[0m/
+drwxr-xr-x   3 root root       4096 Apr 27 18:20 [01;34mboot[0m/
+dr-xr-xr-x   2 root root       4096 Apr 27 18:16 [01;34mcdrom[0m/
+drwxr-xr-x  19 root root       4140 May 30 21:26 [01;34mdev[0m/
+drwxr-xr-x 141 root root      12288 May 30 22:11 [01;34metc[0m/
+drwxr-xr-x   4 root root       4096 May 30 22:08 [01;34mhome[0m/
+lrwxrwxrwx   1 root root          7 Apr 22 17:08 [01;36mlib[0m -> [01;34musr/lib[0m/
+lrwxrwxrwx   1 root root          9 Apr 22 17:08 [01;36mlib64[0m -> [01;34musr/lib64[0m/
+drwxr-xr-x   2 root root       4096 Apr  8 18:37 [01;34mlib.usr-is-merged[0m/
+drwx------   2 root root      16384 Apr 27 18:18 [01;34mlost+found[0m/
+drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34mmedia[0m/
+drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34mmnt[0m/
+drwxr-xr-x   3 root root       4096 May  2 17:56 [01;34mopt[0m/
+dr-xr-xr-x 294 root root          0 May 30 21:21 [01;34mproc[0m/
+drwx------   5 root root       4096 Apr 27 18:21 [01;34mroot[0m/
+drwxr-xr-x  39 root root       1020 May 30 22:11 [01;34mrun[0m/
+lrwxrwxrwx   1 root root          8 Apr 22 17:08 [01;36msbin[0m -> [01;34musr/sbin[0m/
+drwxr-xr-x   2 root root       4096 Mar 31 13:00 [01;34msbin.usr-is-merged[0m/
+drwxr-xr-x  13 root root       4096 May  2 17:32 [01;34msnap[0m/
+drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34msrv[0m/
+-rw-------   1 root root 4294967296 Apr 27 18:20 swap.img
+dr-xr-xr-x  13 root root          0 May 30 22:08 [01;34msys[0m/
+drwxrwxrwt  18 root root       4096 May 30 22:07 [30;42mtmp[0m/
+drwxr-xr-x  12 root root       4096 Apr 24 14:47 [01;34musr[0m/
+drwxr-xr-x  14 root root       4096 Apr 27 18:21 [01;34mvar[0m/
+[?2004h]0;yokeh@yokeh-VirtualBox: /[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/[00m$ cd home/
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ ;;
+[?2004lbash: syntax error near unexpected token `;;'
+[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ ll
+[?2004ltotal 16
+drwxr-xr-x  4 root  root  4096 May 30 22:08 [0m[01;34m.[0m/
+drwxr-xr-x 23 root  root  4096 Apr 27 18:20 [01;34m..[0m/
+drwxr-x---  2  1001  1001 4096 May 30 22:08 [01;34mtest[0m/
+drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34myokeh[0m/
+[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ rm test/[K
+[?2004lrm: cannot remove 'test': Is a directory
+[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ rm testll[K;;llrm testll[K;;cd home/[K[K[K[K[K[K[K[Kll
+[?2004ltotal 16
+drwxr-xr-x  4 root  root  4096 May 30 22:08 [0m[01;34m.[0m/
+drwxr-xr-x 23 root  root  4096 Apr 27 18:20 [01;34m..[0m/
+drwxr-x---  2  1001  1001 4096 May 30 22:08 [01;34mtest[0m/
+drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34myokeh[0m/
+[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ cd yokeh/
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ ll
+[?2004ltotal 93512
+drwxr-x--- 20 yokeh yokeh     4096 May 30 22:07 [0m[01;34m.[0m/
+drwxr-xr-x  4 root  root      4096 May 30 22:08 [01;34m..[0m/
+-rw-------  1 yokeh yokeh    14286 May 22 20:16 .bash_history
+-rw-r--r--  1 yokeh yokeh      220 Mar 31 12:41 .bash_logout
+-rw-r--r--  1 yokeh yokeh     3835 May  4 18:54 .bashrc
+drwx------ 12 yokeh yokeh     4096 May  5 19:29 [01;34m.cache[0m/
+drwx------ 16 yokeh yokeh     4096 May  5 19:29 [01;34m.config[0m/
+drwxr-xr-x  6 yokeh yokeh     4096 May  4 14:30 [01;34mDesktop[0m/
+drwx------  3 yokeh yokeh     4096 May  3 21:31 [01;34m.docker[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mDocuments[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 May  6 20:51 [01;34mDownloads[0m/
+-rw-rw-r--  1 yokeh yokeh       56 May  2 15:52 .gitconfig
+drwxr-xr-x  3 yokeh yokeh     4096 May  4 12:12 [01;34m.kube[0m/
+-rw-------  1 yokeh yokeh       20 May 30 22:07 .lesshst
+drwx------  4 yokeh yokeh     4096 Apr 27 18:21 [01;34m.local[0m/
+drwxr-xr-x 10 yokeh yokeh     4096 May  6 16:01 [01;34m.minikube[0m/
+-rwxrwxr-x  1 yokeh yokeh 95637096 May  6 15:53 [01;32mminikube[0m*
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mMusic[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPictures[0m/
+-rw-r--r--  1 yokeh yokeh      807 Mar 31 12:41 .profile
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPublic[0m/
+drwx------  6 yokeh yokeh     4096 May  2 17:32 [01;34msnap[0m/
+drwx------  2 yokeh yokeh     4096 May 30 21:37 [01;34m.ssh[0m/
+drwxrwxr-x  2 yokeh yokeh     4096 May 30 21:26 [01;34m.ssh_backup[0m/
+drwxrwxr-x  3 yokeh yokeh     4096 May 30 22:11 [01;34msshkeys[0m/
+-rw-r--r--  1 yokeh yokeh        0 Apr 27 19:10 .sudo_as_admin_successful
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mTemplates[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mVideos[0m/
+[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd sshkeys/
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ll
+[?2004ltotal 136
+drwxrwxr-x  3 yokeh yokeh   4096 May 30 22:11 [0m[01;34m.[0m/
+drwxr-x--- 20 yokeh yokeh   4096 May 30 22:07 [01;34m..[0m/
+-rw-rw-r--  1 yokeh yokeh     98 May 30 22:08 add_usr.sh
+-rw-rw-r--  1 yokeh yokeh     57 May 30 22:11 del_usr.sh
+drwxrwxr-x  8 yokeh yokeh   4096 May 30 22:12 [01;34m.git[0m/
+-rw-rw-r--  1 yokeh yokeh    212 May 30 21:36 script.sh
+-rw-rw-r--  1 yokeh yokeh 102400 May 30 22:15 typescript
+-rw-r--r--  1 yokeh yokeh    107 May 30 21:38 ubuntu_vm.pub
+-rw-rw-r--  1 yokeh yokeh    576 May 30 21:23 win_main.pub
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[16de[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25hechop[?25l[22d[K[?12l[?25h[16d(B[0;1m[34mecho[39m(B[m[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33ma"[39m(B[m[?25l[?12l[?25h(B[0;1m[33md"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mdd"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mi"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mn"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33ma"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mu"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mt"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mh"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mo"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mi"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mz"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33md"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m_"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mk"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33my"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h[C[?25l[17d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h *[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hca[K[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[17d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cat *.pub
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsxovMXH/lBUGDiOtAlvdmc46pDJxDnjGgDUnNgdgE6 starkovkonstantin@mail.ru
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrp5Ml/F2eO7FOCDvduHtZRqLUpmBUP5QcdzFuEn0nT4lQOOie4Yhk6EnnC/DosNUvbVDCCpVAwrUAgp375Kp5Fct74SbBf3wjENhLFICGWfe8x7l0GUUur0S4C0tsUEbC1SkO3ObQtui2dCuJY4tWCaO9ZZWrKPcmhe/RBJt+aLKF8Zxwt4QkVwD6b+mUlnjgEcmLX12glNn/0A5oB/lOy0m63EB1QP7qpcoz9r3xeUP7dX50QhpA95jK4rTFzZRuNPzjJajJNUtqzXC2PLBw39/w/yrK7bn7OWEgEaTZW90Lw9/0vhtwP4x4BQ0LYV1tewrnYzb2m8LKTiPv9lmVgBSCdKjkELYB+b/vPoiQncnfwOtqQuXw1thNPv0+ZEtKCzeICC4XZFLuJ5nnBcoWNBYPt34pisRDSkbaS+gavnfU1BrFQF1itMXA5CMhOuQTqsDVb55FDvA/EBsr3iRsLiLuKD07CIPQodLRwtvl7q7RtcwZy/7gR2ISQLVP9aE= Kostya@DESKTOP-OGOLGO6
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cat *.pubnano script.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 17 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[16d[34mecho[39m(B[m (B[0;1m[33m"add in authorized_keys"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[A[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[17dc[?25l[?12l[?25ha[?25l[22d[K[?12l[?25h[17d(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h *[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m>[39m(B[m[?25l[?12l[?25h[32m>[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33mDdd in authorized_keys"[8G[39m(B[m[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33mAdd in authorized_keys"[8G[39m(B[m[?25l[?12l[?25h[17d[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;19H[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h /[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25hz[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h_[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hy[?25l[?12l[?25hs[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h/[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hz[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h_[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;15H[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;15H[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;15H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[36m#cat *.pub >> $DIR/authorized_keys#[39m(B[m[?25l[?12l[?25h[18d[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h @[?25l[?12l[?25h#[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[?12l[?25h/[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hz[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h_[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hy[?25l[?12l[?25hs[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[18;25H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh [6Pcat *.pubnano script.sh ll[Knano script.sh [C[1P[1P[1P[1P[1@b[1@a[1@s[1@g
+[?2004lCommand 'basg' not found, did you mean:
+  command 'bash' from deb bash (5.2.21-2ubuntu1)
+  command 'bamg' from deb rheolef (7.2-3build3)
+Try: sudo apt install <deb name>
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ basg script.sh [1P[1@h
+[?2004lRunning Script
+Check /home/yokeh/.ssh/
+Dir= /home/yokeh/.ssh/ is assigned
+Copy keys
+Done
+Add in authorized_keys
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ bash script.sh g[C[C[C[C[C[C[C[C[C[C[Cnano[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 17 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[16d[34mecho[39m(B[m (B[0;1m[33m"Add in authorized_keys"[17d(B[0m[36m#cat *.pub >> $DIR/authorized_keys[18d(B[0;1m[34mcat[39m(B[m (B[0;1m[31m$DIR[39m(B[m/authorized_keys[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[1;49H(B[0;7m*[22d(B[m[K[1;79H[?12l[?25h[18d[36m#cat $DIR/authorized_keys#[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m *.pub [32m>>[39m(B[m (B[0;1m[31m$DIR[39m(B[m/authorized_keys[K[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[A[?25l7[18;22r8M[1;24r[19;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25hp[?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25hech[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[18;22r[22;1H
+[1;24r[17;34H[?12l[?25h[?25l[?12l[?25h[18;26H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m (B[0;1m[31m$DIR[39m(B[m/authorized_keys[K[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[18d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh bash[C[C[C[C[C[C[C[C[C[C[C
+[?2004lRunning Script
+Check /home/yokeh/.ssh/
+Dir= /home/yokeh/.ssh/ is assigned
+Copy keys
+Done
+Add in authorized_keys
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsxovMXH/lBUGDiOtAlvdmc46pDJxDnjGgDUnNgdgE6 starkovkonstantin@mail.ru
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrp5Ml/F2eO7FOCDvduHtZRqLUpmBUP5QcdzFuEn0nT4lQOOie4Yhk6EnnC/DosNUvbVDCCpVAwrUAgp375Kp5Fct74SbBf3wjENhLFICGWfe8x7l0GUUur0S4C0tsUEbC1SkO3ObQtui2dCuJY4tWCaO9ZZWrKPcmhe/RBJt+aLKF8Zxwt4QkVwD6b+mUlnjgEcmLX12glNn/0A5oB/lOy0m63EB1QP7qpcoz9r3xeUP7dX50QhpA95jK4rTFzZRuNPzjJajJNUtqzXC2PLBw39/w/yrK7bn7OWEgEaTZW90Lw9/0vhtwP4x4BQ0LYV1tewrnYzb2m8LKTiPv9lmVgBSCdKjkELYB+b/vPoiQncnfwOtqQuXw1thNPv0+ZEtKCzeICC4XZFLuJ5nnBcoWNBYPt34pisRDSkbaS+gavnfU1BrFQF1itMXA5CMhOuQTqsDVb55FDvA/EBsr3iRsLiLuKD07CIPQodLRwtvl7q7RtcwZy/7gR2ISQLVP9aE= Kostya@DESKTOP-OGOLGO6
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd ..
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ ll
+[?2004ltotal 93512
+drwxr-x--- 20 yokeh yokeh     4096 May 30 22:07 [0m[01;34m.[0m/
+drwxr-xr-x  4 root  root      4096 May 30 22:08 [01;34m..[0m/
+-rw-------  1 yokeh yokeh    14286 May 22 20:16 .bash_history
+-rw-r--r--  1 yokeh yokeh      220 Mar 31 12:41 .bash_logout
+-rw-r--r--  1 yokeh yokeh     3835 May  4 18:54 .bashrc
+drwx------ 12 yokeh yokeh     4096 May  5 19:29 [01;34m.cache[0m/
+drwx------ 16 yokeh yokeh     4096 May  5 19:29 [01;34m.config[0m/
+drwxr-xr-x  6 yokeh yokeh     4096 May  4 14:30 [01;34mDesktop[0m/
+drwx------  3 yokeh yokeh     4096 May  3 21:31 [01;34m.docker[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mDocuments[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 May  6 20:51 [01;34mDownloads[0m/
+-rw-rw-r--  1 yokeh yokeh       56 May  2 15:52 .gitconfig
+drwxr-xr-x  3 yokeh yokeh     4096 May  4 12:12 [01;34m.kube[0m/
+-rw-------  1 yokeh yokeh       20 May 30 22:07 .lesshst
+drwx------  4 yokeh yokeh     4096 Apr 27 18:21 [01;34m.local[0m/
+drwxr-xr-x 10 yokeh yokeh     4096 May  6 16:01 [01;34m.minikube[0m/
+-rwxrwxr-x  1 yokeh yokeh 95637096 May  6 15:53 [01;32mminikube[0m*
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mMusic[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPictures[0m/
+-rw-r--r--  1 yokeh yokeh      807 Mar 31 12:41 .profile
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPublic[0m/
+drwx------  6 yokeh yokeh     4096 May  2 17:32 [01;34msnap[0m/
+drwx------  2 yokeh yokeh     4096 May 30 22:19 [01;34m.ssh[0m/
+drwxrwxr-x  2 yokeh yokeh     4096 May 30 21:26 [01;34m.ssh_backup[0m/
+drwxrwxr-x  3 yokeh yokeh     4096 May 30 22:20 [01;34msshkeys[0m/
+-rw-r--r--  1 yokeh yokeh        0 Apr 27 19:10 .sudo_as_admin_successful
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mTemplates[0m/
+drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mVideos[0m/
+[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd .ssh
+[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ ll
+[?2004ltotal 36
+drwx------  2 yokeh yokeh 4096 May 30 22:19 [0m[01;34m.[0m/
+drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34m..[0m/
+-rw-------  1 yokeh yokeh  683 May 30 22:20 authorized_keys
+-rw-------  1 yokeh yokeh  419 May  2 15:54 id_ed25519
+-rw-r--r--  1 yokeh yokeh  107 May  2 15:54 id_ed25519.pub
+-rw-------  1 yokeh yokeh  978 May  2 16:01 known_hosts
+-rw-r--r--  1 yokeh yokeh  142 May  2 16:01 [00;90mknown_hosts.old[0m
+-rw-r--r--  1 yokeh yokeh  107 May 30 22:20 ubuntu_vm.pub
+-rw-rw-r--  1 yokeh yokeh  576 May 30 22:20 win_main.pub
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ cat authorized_keys 
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsxovMXH/lBUGDiOtAlvdmc46pDJxDnjGgDUnNgdgE6 starkovkonstantin@mail.ru
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrp5Ml/F2eO7FOCDvduHtZRqLUpmBUP5QcdzFuEn0nT4lQOOie4Yhk6EnnC/DosNUvbVDCCpVAwrUAgp375Kp5Fct74SbBf3wjENhLFICGWfe8x7l0GUUur0S4C0tsUEbC1SkO3ObQtui2dCuJY4tWCaO9ZZWrKPcmhe/RBJt+aLKF8Zxwt4QkVwD6b+mUlnjgEcmLX12glNn/0A5oB/lOy0m63EB1QP7qpcoz9r3xeUP7dX50QhpA95jK4rTFzZRuNPzjJajJNUtqzXC2PLBw39/w/yrK7bn7OWEgEaTZW90Lw9/0vhtwP4x4BQ0LYV1tewrnYzb2m8LKTiPv9lmVgBSCdKjkELYB+b/vPoiQncnfwOtqQuXw1thNPv0+ZEtKCzeICC4XZFLuJ5nnBcoWNBYPt34pisRDSkbaS+gavnfU1BrFQF1itMXA5CMhOuQTqsDVb55FDvA/EBsr3iRsLiLuKD07CIPQodLRwtvl7q7RtcwZy/7gR2ISQLVP9aE= Kostya@DESKTOP-OGOLGO6
+[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-30 22:21:25+04:00 [COMMAND_EXIT_CODE="0"]
