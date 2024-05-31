@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Running Script"
-DIR=~/.ssh/
+#DIR=~/.ssh/
+USER=yokeh
+DIR=/home/$USER/.ssh
 BACKUP_DIR
 KEYS=*.pub
 
