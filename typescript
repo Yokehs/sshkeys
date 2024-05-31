@@ -1,679 +1,0 @@
-Script started on 2024-05-30 21:28:35+04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ls -lal[Kcd mapper/ll[Ks -la[Kscrit[Ko[Kpt.sh
-[?2004lscript.sh: command not found
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ script.shnscript.shascript.sh[1Pscript.sh[1Pscript.shbscript.shascript.sh[Cscript.shhscript.sh script.sh
-[?2004lRunning Script
-directory /home/yokeh/.ssh/ is assigned
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ bash script.sh[5Pscript.shbash script.sh[Kbash script.sh[5Pscript.sh[3Pls -lal[Kcd mapper/ll[Ks -lascript.shbash script.sh[Knano script.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5d[36m#Проверка на существование папки и .ssh ключей[6d[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[7d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"make dir $DIR"[8d(B[0m[36m#mkdir .ssh[9d[32melse[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"directory $DIR is assigned"[11d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;49H(B[0;7m*[79G(B[m[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[K[?25l[13d[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[13d[?25l[22d[K[?12l[?25h[13dc[?25l[?12l[?25h(B[0;1m[34mcp[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h .[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h .[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hc[K[?25l[?12l[?25h[K[?25l[?12l[?25h[A[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[36mc[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mp[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[36my[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h"[?25l[?12l[?25h[K[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33mc"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mo"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mp"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33mC"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mo"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mp"[39m(B[m[?25l[?12l[?25h(B[0;1m[33my"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mk"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33my"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h[C[?25l[13d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25h(B[0;1m[34mcp[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 14 lines ](B[m[?12l[?25h[13;4H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ll
-[?2004ltotal 24
-drwxrwxr-x  3 yokeh yokeh 4096 May 30 21:30 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 21:24 [01;34m..[0m/
-drwxrwxr-x  8 yokeh yokeh 4096 May 30 21:23 [01;34m.git[0m/
--rw-rw-r--  1 yokeh yokeh  249 May 30 21:30 script.sh
--rw-rw-r--  1 yokeh yokeh 4096 May 30 21:30 typescript
--rw-rw-r--  1 yokeh yokeh  576 May 30 21:23 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ llnano script.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5d[36m#Проверка на существование папки и .ssh ключей[6d[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[7d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"make dir $DIR"[8d(B[0m[36m#mkdir .ssh[9d[32melse[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"directory $DIR is assigned"[11d(B[0m[32mfi[12d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[13d[34mcp(B[0m[42m [2d[49m(B[m[?12l[?25h[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2d[36m #!/bin/bash [39m(B[m[?25l[?12l[?25h[1P[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[22d[K[?12l[?25h[13;4H[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h *[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 14 lines ](B[m[?12l[?25h[13;14H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh ll[Knano script.sh [1Pbash script.sh[5Pscript.shbash script.sh
-[?2004lRunning Script
-directory /home/yokeh/.ssh/ is assigned
-Copy keys
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd ..
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ l[Kcd /s[K[K.ssh
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ l;l[K[Kl;[K
-[?2004ltotal 28
-drwx------  2 yokeh yokeh 4096 May 30 21:31 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 21:24 [01;34m..[0m/
--rw-------  1 yokeh yokeh    0 Apr 27 18:21 authorized_keys
--rw-------  1 yokeh yokeh  419 May  2 15:54 id_ed25519
--rw-r--r--  1 yokeh yokeh  107 May  2 15:54 id_ed25519.pub
--rw-------  1 yokeh yokeh  978 May  2 16:01 known_hosts
--rw-r--r--  1 yokeh yokeh  142 May  2 16:01 [00;90mknown_hosts.old[0m
--rw-rw-r--  1 yokeh yokeh  576 May 30 21:31 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ c[Kcd ..
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ l[Kcd sshkeys/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ basgh[K[Kh[K[K[K[Knano script.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5d[36m#Проверка на существование папки и .ssh ключей[6d[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[7d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"make dir $DIR"[8d(B[0m[36m#mkdir .ssh[9d[32melse[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"directory $DIR is assigned"[11d(B[0m[32mfi[12d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[13d[34mcp[39m(B[m *.pub (B[0;1m[31m$DIR[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[14dE[?25l[?12l[?25h[K[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[22d[K[?12l[?25h[14;5H "[?25l[?12l[?25hD[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h[6G(B[0;1m[33m"Done"[39m(B[m[?25l[15d[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l7[5;22r8M[1;24r[6;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hK[?25l[?12l[?25hE[?25l[?12l[?25hY[?25l[?12l[?25hS[?25l[?12l[?25h[32m=[39m(B[m[?25l[?12l[?25h*[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10;5H[?25l[?12l[?25h[11;11H[?25l[?12l[?25h[12;3H[?25l[?12l[?25h[13;11H[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[A[?25l[?12l[?25h[15;11H[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h (B[0;1m[31m$DIR[39m(B[m[K[8G[?25l[?12l[?25h (B[0;1m[31m$DIR[39m(B[m[K[7G[?25l[?12l[?25h (B[0;1m[31m$DIR[39m(B[m[K[6G[?25l[?12l[?25h (B[0;1m[31m$DIR[39m(B[m[K[5G[?25l[?12l[?25h (B[0;1m[31m$DIR[39m(B[m[K[4G[?25l[?12l[?25h[32m$[39m(B[m (B[0;1m[31m$DIR[5G[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$K[39m(B[m (B[0;1m[31m$DIR[6G[39m(B[m[?25l[?12l[?25h(B[0;1m[31mE[39m(B[m (B[0;1m[31m$DIR[7G[39m(B[m[?25l[?12l[?25h(B[0;1m[31mY[39m(B[m (B[0;1m[31m$DIR[8G[39m(B[m[?25l[?12l[?25h(B[0;1m[31mS[39m(B[m (B[0;1m[31m$DIR[9G[39m(B[m[?25l[?12l[?25h[15d[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 16 lines ](B[m[?12l[?25h[15;9H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[12;3H[?25l[?12l[?25h[11;9H[?25l[?12l[?25h[A[?25l[?12l[?25h[9;9H[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[1;49H(B[0;7m*[79G(B[m[7;21r[7;1HM[1;24r[8;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25he[?25l[22d[K[?12l[?25h[7dec[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[?25l[?12l[?25h"[?25l[?12l[?25hC[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hk[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hk[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m #[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[?12l[?25h[6G(B[0;1m[33m"Check $DIR"[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hПроверка на существование папки и .ssh ключей[K[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hлючей[K[?25l[?12l[?25hючей[K[?25l[?12l[?25hчей[K[?25l[?12l[?25hей[K[?25l[?12l[?25hй[K[?25l[?12l[?25h[K[?25l[6;22r[22;1H
-[1;24r[5;11H[?12l[?25h[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10;5H[?25l[?12l[?25h[11;11H[?25l[?12l[?25h[12;3H[?25l[?12l[?25h[11;11H[?25l[?12l[?25h[10;5H[?25l[?12l[?25h[9;11H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h(B[0;1m[34mmkdir[39m(B[m .ssh[K[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h[10d[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[9;11H[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h[36m #[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[?12l[?25h[10;5H[?25l[?12l[?25h[11;11H[?25l[?12l[?25h[12;3H[?25l[?12l[?25h[11;11H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m= $DIR is assigned"[11;11H[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33mDir= $DIR is assigned"[8G[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[9;8H[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33mMake dir $DIR"[8G[39m(B[m[?25l[?12l[?25h[9d[?25l[?12l[?25h[10;5H[?25l[?12l[?25h[11;8H[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 16 lines ](B[m[?12l[?25h[11;8H[?25l[?12l[?25h[12;3H[?25l[?12l[?25h[13;8H[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[22;32H  (B[0;7m[ Writing... ](B[m[K[1;79H[22;32H(B[0;7m[ Wrote 16 lines ](B[m[?12l[?25h[16d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd .[K[K[K[Kcd ..
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd .ssh
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ ll
-[?2004ltotal 28
-drwx------  2 yokeh yokeh 4096 May 30 21:31 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 21:24 [01;34m..[0m/
--rw-------  1 yokeh yokeh    0 Apr 27 18:21 authorized_keys
--rw-------  1 yokeh yokeh  419 May  2 15:54 id_ed25519
--rw-r--r--  1 yokeh yokeh  107 May  2 15:54 id_ed25519.pub
--rw-------  1 yokeh yokeh  978 May  2 16:01 known_hosts
--rw-r--r--  1 yokeh yokeh  142 May  2 16:01 [00;90mknown_hosts.old[0m
--rw-rw-r--  1 yokeh yokeh  576 May 30 21:31 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ cd [K[K[Knano authorized_keys 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2                     authorized_keys                              [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ cd ..
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd .ssh
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ ll
-[?2004ltotal 28
-drwx------  2 yokeh yokeh 4096 May 30 21:37 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 21:24 [01;34m..[0m/
--rw-------  1 yokeh yokeh    0 Apr 27 18:21 authorized_keys
--rw-------  1 yokeh yokeh  419 May  2 15:54 id_ed25519
--rw-r--r--  1 yokeh yokeh  107 May  2 15:54 id_ed25519.pub
--rw-------  1 yokeh yokeh  978 May  2 16:01 known_hosts
--rw-r--r--  1 yokeh yokeh  142 May  2 16:01 [00;90mknown_hosts.old[0m
--rw-rw-r--  1 yokeh yokeh  576 May 30 21:31 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ cp id_ed25519.pub ~/sshkeys/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ cd [K[K[Kcd ..
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd sshkeys/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ll
-[?2004ltotal 44
-drwxrwxr-x  3 yokeh yokeh  4096 May 30 21:38 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh  4096 May 30 21:24 [01;34m..[0m/
-drwxrwxr-x  8 yokeh yokeh  4096 May 30 21:23 [01;34m.git[0m/
--rw-r--r--  1 yokeh yokeh   107 May 30 21:38 id_ed25519.pub
--rw-rw-r--  1 yokeh yokeh   212 May 30 21:36 script.sh
--rw-rw-r--  1 yokeh yokeh 20480 May 30 21:37 typescript
--rw-rw-r--  1 yokeh yokeh   576 May 30 21:23 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd [K[K[Kmv e[Kid_ed25519.pub ubuntuke[K[K_vm.pub
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ll
-[?2004ltotal 44
-drwxrwxr-x  3 yokeh yokeh  4096 May 30 21:38 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh  4096 May 30 21:24 [01;34m..[0m/
-drwxrwxr-x  8 yokeh yokeh  4096 May 30 21:23 [01;34m.git[0m/
--rw-rw-r--  1 yokeh yokeh   212 May 30 21:36 script.sh
--rw-rw-r--  1 yokeh yokeh 20480 May 30 21:37 typescript
--rw-r--r--  1 yokeh yokeh   107 May 30 21:38 ubuntu_vm.pub
--rw-rw-r--  1 yokeh yokeh   576 May 30 21:23 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git[K[K[Kgit add -A
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git commit -a -m ""a"d"d" "s"o"m"e" "s"h"i"t"
-[?2004l[master ee3ec55] add some shit
- 3 files changed, 61 insertions(+), 4 deletions(-)
- create mode 100644 typescript
- create mode 100644 ubuntu_vm.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git push
-[?2004lEnumerating objects: 7, done.
-Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
-Delta compression using up to 4 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 2.88 KiB | 2.88 MiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:Yokehs/sshkeys.git
-   e52ba12..ee3ec55  master -> master
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nanoi[K[K[K[K[Kcd [K[K[Kll
-[?2004ltotal 52
-drwxrwxr-x  3 yokeh yokeh  4096 May 30 21:38 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh  4096 May 30 21:24 [01;34m..[0m/
-drwxrwxr-x  8 yokeh yokeh  4096 May 30 21:39 [01;34m.git[0m/
--rw-rw-r--  1 yokeh yokeh   212 May 30 21:36 script.sh
--rw-rw-r--  1 yokeh yokeh 24576 May 30 21:39 typescript
--rw-r--r--  1 yokeh yokeh   107 May 30 21:38 ubuntu_vm.pub
--rw-rw-r--  1 yokeh yokeh   576 May 30 21:23 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd [K[K[Ksc[K[Knano add_usr.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                       add_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2d[36m#[39m(B[m[?25l[?12l[?25h[36m![39m(B[m[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;33H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;3H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[2d[39m(B[m[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh add_usr.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 7.2                       add_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#![39m(B[m[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2;3H[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[22;33H (B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;33H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;7H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano add_usr.shscript.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[2d[39m(B[m[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh add_usr.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 7.2                       add_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin[39m(B[m[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2;7H[36m/[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h"[?25l[?12l[?25h[K[?25l[?12l[?25he[?25l[22d[K[?12l[?25h[3dec[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l7[3;22r8M[1;24r[4;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hU[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25hR[?25l[?12l[?25h[32m=[39m(B[m[?25l[?12l[?25hy[?25l[?12l[?25ho[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hh[?25l[?12l[?25h[4;8H[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33mc"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ma"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mt"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mu"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mw"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m@"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mU"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mS"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mE"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mR"[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[5d[?12l[?25h[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -d[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h /[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -d[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h /[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -m[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[32m$(B[0;1m[35m -d[39m(B[m /home/user(B[0;1m[35m -m(B[0m[42m [5;10H[49m(B[m[?25l[?12l[?25h(B[0;1m[31m$U[35m -d[39m(B[m /home/user(B[0;1m[35m -m(B[0m[42m [5;11H[49m(B[m[?25l[?12l[?25h(B[0;1m[31mS[35m -d[39m(B[m /home/user(B[0;1m[35m -m(B[0m[42m [5;12H[49m(B[m[?25l[?12l[?25h(B[0;1m[31mE[35m -d[39m(B[m /home/user(B[0;1m[35m -m(B[0m[42m [5;13H[49m(B[m[?25l[?12l[?25h(B[0;1m[31mR[35m -d[39m(B[m /home/user(B[0;1m[35m -m(B[0m[42m [5;14H[49m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h/[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;1m[35m -m(B[0m[42m [49m(B[m[K[?25l[?12l[?25h(B[0;1m[35m -m(B[0m[42m [49m(B[m[K[?25l[?12l[?25h(B[0;1m[35m -m(B[0m[42m [49m(B[m[K[?25l[?12l[?25h(B[0;1m[35m -m(B[0m[42m [49m(B[m[K[?25l[?12l[?25h[32m$(B[0;1m[35m -m(B[0m[42m [49m(B[m[?25l[?12l[?25h(B[0;1m[31m$U[35m -m(B[0m[42m [49m(B[m[?25l[?12l[?25h(B[0;1m[31mS[35m -m(B[0m[42m [49m(B[m[?25l[?12l[?25h(B[0;1m[31mE[35m -m(B[0m[42m [49m(B[m[?25l[?12l[?25h(B[0;1m[31mR[35m -m(B[0m[42m [49m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[3;11H[?25l[?12l[?25h[A[C[?25l[?12l[?25h[3d[?25l7[4;22r8[4dM[1;24r[4;1H[?12l[?25h[?25l[?12l[?25hG[?25l[?12l[?25hR[?25l[?12l[?25hO[?25l[?12l[?25hU[?25l[?12l[?25hP[?25l[?12l[?25h[32m=[39m(B[m[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h[A[?25l[?12l[?25h[4dn[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[6;12H[?25l[?12l[?25h[7d[?25l[?12l[?25h[6;33H[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 5 lines ](B[m[?12l[?25h[6;33H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ uder[K[K[K[Kman user
-useradd                    user-keyring
-user_caps                  usermod
-user.conf.d                user_namespaces
-userdel                    user-runtime-dir@.service
-user-dirs.conf             users
-user-dirs.defaults         user@.service
-user-dirs.dirs             user-session-keyring
-userfaultfd                
-]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ man useradd 
-[?2004l[?1049h[22;0;0t[?1h=[4mUSERADD[24m(8)                System Management Commands                [4mUSERADD[24m(8)[m
-[m
-[1mNAME[0m[m
-       useradd - create a new user or update default new user information[m
-[m
-[1mSYNOPSIS[0m[m
-[m
-       [1museradd [22m[[4moptions[24m] [4mLOGIN[0m[m
-[m
-       [1museradd [22m-D[m
-[m
-       [1museradd [22m-D [[4moptions[24m][m
-[m
-[1mDESCRIPTION[0m[m
-       [1museradd [22mis a low level utility for adding users. On Debian,[m
-       administrators should usually use [1madduser[22m(8) instead.[m
-[m
-       When invoked without the [1m-D [22moption, the [1museradd [22mcommand creates a new[m
-       user account using the values specified on the command line plus the[m
-       default values from the system. Depending on command line options, the[m
-       [1museradd [22mcommand will update system files and may also create the new[m
-       user's home directory and copy initial files.[m
-[m
-[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       By default, a group will also be created for the new user (see [1m-g[22m, [1m-N[22m,[m
-[7m Manual page useradd(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-U[22m, and [1mUSERGROUPS_ENAB[22m).[m
-[7m Manual page useradd(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
-[7m Manual page useradd(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1museradd [22mcommand are:[m
-[7m Manual page useradd(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--badname[0m[m
-[7m Manual page useradd(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Allow names that do not conform to standards.[m
-[7m Manual page useradd(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[22m, [1m--base-dir [4m[22mBASE_DIR[0m[m
-[7m Manual page useradd(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The default base directory for the system if [1m-d [4m[22mHOME_DIR[24m is not[m
-[7m Manual page useradd(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified.  [4mBASE_DIR[24m is concatenated with the account name to[m
-[7m Manual page useradd(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           define the home directory.[m
-[7m Manual page useradd(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If this option is not specified, [1museradd [22mwill use the base[m
-[7m Manual page useradd(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           directory specified by the [1mHOME [22mvariable in /etc/default/useradd,[m
-[7m Manual page useradd(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           or /home by default.[m
-[7m Manual page useradd(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[22m, [1m--comment [4m[22mCOMMENT[0m[m
-[7m Manual page useradd(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Any text string. It is generally a short description of the[m
-[7m Manual page useradd(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           account, and is currently used as the field for the user's full[m
-[7m Manual page useradd(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           name.[m
-[7m Manual page useradd(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[22m, [1m--home-dir [4m[22mHOME_DIR[0m[m
-[7m Manual page useradd(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The new user will be created using [4mHOME_DIR[24m as the value for the[m
-[7m Manual page useradd(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user's login directory. The default is to append the [4mLOGIN[24m name to[m
-[7m Manual page useradd(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mBASE_DIR[24m and use that as the login directory name. If the directory[m
-[7m Manual page useradd(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mHOME_DIR[24m does not exist, then it will be created unless the [1m-M[0m[m
-[7m Manual page useradd(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option is specified.[m
-[7m Manual page useradd(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[22m, [1m--defaults[0m[m
-[7m Manual page useradd(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           See below, the subsection "Changing the default values".[m
-[7m Manual page useradd(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[22m, [1m--expiredate [4m[22mEXPIRE_DATE[0m[m
-[7m Manual page useradd(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The date on which the user account will be disabled. The date is[m
-[7m Manual page useradd(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified in the format [4mYYYY-MM-DD[24m.[m
-[7m Manual page useradd(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If not specified, [1museradd [22mwill use the default expiry date[m
-[7m Manual page useradd(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified by the [1mEXPIRE [22mvariable in /etc/default/useradd, or an[m
-[7m Manual page useradd(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           empty string (no expiry) by default.[m
-[7m Manual page useradd(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[22m, [1m--inactive [4m[22mINACTIVE[0m[m
-[7m Manual page useradd(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           defines the number of days after the password exceeded its maximum[m
-[7m Manual page useradd(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           age where the user is expected to replace this password. The value[m
-[7m Manual page useradd(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is stored in the shadow password file. An input of 0 will disable[m
-[7m Manual page useradd(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           an expired password with no delay. An input of -1 will blank the[m
-[7m Manual page useradd(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           respective field in the shadow password file. See [1mshadow[22m(5)for more[m
-[7m Manual page useradd(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           information.[m
-[7m Manual page useradd(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If not specified, [1museradd [22mwill use the default inactivity period[m
-[7m Manual page useradd(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified by the [1mINACTIVE [22mvariable in /etc/default/useradd, or -1[m
-[7m Manual page useradd(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           by default.[m
-[7m Manual page useradd(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-F[22m, [1m--add-subids-for-system[0m[m
-[7m Manual page useradd(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Update /etc/subuid and /etc/subgid even when creating a system[m
-[7m Manual page useradd(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           account with [1m-r [22moption.[m
-[7m Manual page useradd(8) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGROUP[0m[m
-[7m Manual page useradd(8) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The name or the number of the user's primary group. The group name[m
-[7m Manual page useradd(8) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           must exist. A group number must refer to an already existing group.[m
-[7m Manual page useradd(8) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If not specified, the behavior of [1museradd [22mwill depend on the[m
-[7m Manual page useradd(8) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mUSERGROUPS_ENAB [22mvariable in /etc/login.defs. If this variable is[m
-[7m Manual page useradd(8) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           set to [4myes[24m (or [1m-U/--user-group [22mis specified on the command line), a[m
-[7m Manual page useradd(8) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           group will be created for the user, with the same name as her[m
-[7m Manual page useradd(8) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           loginname. If the variable is set to [4mno[24m (or [1m-N/--no-user-group [22mis[m
-[7m Manual page useradd(8) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified on the command line), useradd will set the primary group[m
-[7m Manual page useradd(8) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           of the new user to the value specified by the [1mGROUP [22mvariable in[m
-[7m Manual page useradd(8) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/default/useradd, or 100 by default.[m
-[7m Manual page useradd(8) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-G[22m, [1m--groups [4m[22mGROUP1[24m[[4m,GROUP2,...[24m[[4m,GROUPN[24m]]][m
-[7m Manual page useradd(8) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           A list of supplementary groups which the user is also a member of.[m
-[7m Manual page useradd(8) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Each group is separated from the next by a comma, with no[m
-[7m Manual page useradd(8) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           intervening whitespace. The groups are subject to the same[m
-[7m Manual page useradd(8) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           restrictions as the group given with the [1m-g [22moption. The default is[m
-[7m Manual page useradd(8) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           for the user to belong only to the initial group.[m
-[7m Manual page useradd(8) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[22m, [1m--help[0m[m
-[7m Manual page useradd(8) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display help message and exit.[m
-[7m Manual page useradd(8) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[22m, [1m--skel [4m[22mSKEL_DIR[0m[m
-[7m Manual page useradd(8) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The skeleton directory, which contains files and directories to be[m
-[7m Manual page useradd(8) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           copied in the user's home directory, when the home directory is[m
-[7m Manual page useradd(8) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           created by [1museradd[22m.[m
-[7m Manual page useradd(8) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option is only valid if the [1m-m [22m(or [1m--create-home[22m) option is[m
-[7m Manual page useradd(8) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified.[m
-[7m Manual page useradd(8) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If this option is not set, the skeleton directory is defined by the[m
-[7m Manual page useradd(8) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mSKEL [22mvariable in /etc/default/useradd or, by default, /etc/skel.[m
-[7m Manual page useradd(8) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If possible, the ACLs and extended attributes are copied.[m
-[7m Manual page useradd(8) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-K[22m, [1m--key [4m[22mKEY[24m=[4mVALUE[0m[m
-[7m Manual page useradd(8) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Overrides /etc/login.defs defaults ([1mUID_MIN[22m, [1mUID_MAX[22m, [1mUMASK[22m,[m
-[7m Manual page useradd(8) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mPASS_MAX_DAYS [22mand others).[m
-[7m Manual page useradd(8) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Example: [1m-K [4m[22mPASS_MAX_DAYS[24m =[4m-1[24m can be used when creating an account[m
-[7m Manual page useradd(8) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to turn off password aging. Multiple [1m-K [22moptions can be specified,[m
-[7m Manual page useradd(8) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           e.g.: [1m-K [4m[22mUID_MIN[24m =[4m100[24m [1m-K  [4m[22mUID_MAX[24m=[4m499[0m[m
-[7m Manual page useradd(8) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           For the compatibility with previous Debian's [1museradd[22m, the [1m-O [22moption[m
-[7m Manual page useradd(8) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is also supported.[m
-[7m Manual page useradd(8) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[22m, [1m--no-log-init[0m[m
-[7m Manual page useradd(8) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Do not add the user to the lastlog and faillog databases.[m
-[7m Manual page useradd(8) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           By default, the user's entries in the lastlog and faillog databases[m
-[7m Manual page useradd(8) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           are reset to avoid reusing the entry from a previously deleted[m
-[7m Manual page useradd(8) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user.[m
-[7m Manual page useradd(8) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If this option is not specified, [1museradd [22mwill also consult the[m
-[7m Manual page useradd(8) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable [1mLOG_INIT [22min the /etc/default/useradd if set to no the user[m
-[7m Manual page useradd(8) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           will not be added to the lastlog and faillog databases.[m
-[7m Manual page useradd(8) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[22m, [1m--create-home[0m[m
-[7m Manual page useradd(8) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Create the user's home directory if it does not exist. The files[m
-[7m Manual page useradd(8) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and directories contained in the skeleton directory (which can be[m
-[7m Manual page useradd(8) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           defined with the [1m-k [22moption) will be copied to the home directory.[m
-[7m Manual page useradd(8) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           By default, if this option is not specified and [1mCREATE_HOME [22mis not[m
-[7m Manual page useradd(8) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           enabled, no home directories are created.[m
-[7m Manual page useradd(8) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The directory where the user's home directory is created must exist[m
-[7m Manual page useradd(8) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and have proper SELinux context and permissions. Otherwise the[m
-[7m Manual page useradd(8) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user's home directory cannot be created or accessed.[m
-[7m Manual page useradd(8) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[22m, [1m--no-create-home[0m[m
-[7m Manual page useradd(8) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Do not create the user's home directory, even if the system wide[m
-[7m Manual page useradd(8) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           setting from /etc/login.defs ([1mCREATE_HOME[22m) is set to [4myes[24m.[m
-[7m Manual page useradd(8) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-N[22m, [1m--no-user-group[0m[m
-[7m Manual page useradd(8) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Do not create a group with the same name as the user, but add the[m
-[7m Manual page useradd(8) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user to the group specified by the [1m-g [22moption or by the [1mGROUP[0m[m
-[7m Manual page useradd(8) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable in /etc/default/useradd.[m
-[7m Manual page useradd(8) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions are not[m
-[7m Manual page useradd(8) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified) is defined by the [1mUSERGROUPS_ENAB [22mvariable in[m
-[7m Manual page useradd(8) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/login.defs.[m
-[7m Manual page useradd(8) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[22m, [1m--non-unique[0m[m
-[7m Manual page useradd(8) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           allows the creation of an account with an already existing UID.[m
-[7m Manual page useradd(8) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option is only valid in combination with the [1m-u [22moption. As a[m
-[7m Manual page useradd(8) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user identity serves as key to map between users on one hand and[m
-[7m Manual page useradd(8) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           permissions, file ownerships and other aspects that determine the[m
-[7m Manual page useradd(8) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system's behavior on the other hand, more than one login name will[m
-[7m Manual page useradd(8) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           access the account of the given UID.[m
-[7m Manual page useradd(8) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[22m, [1m--password [4m[22mPASSWORD[0m[m
-[7m Manual page useradd(8) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           defines an initial password for the account. PASSWORD is expected[m
-[7m Manual page useradd(8) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to be encrypted, as returned by [1mcrypt [22m(3). Within a shell script,[m
-[7m Manual page useradd(8) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           this option allows to create efficiently batches of users.[m
-[7m Manual page useradd(8) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Without this option, the new account will be locked and with no[m
-[7m Manual page useradd(8) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password defined, i.e. a single exclamation mark in the respective[m
-[7m Manual page useradd(8) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           field of /etc/shadow. This is a state where the user won't be able[m
-[7m Manual page useradd(8) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to access the account or to define a password himself.[m
-[7m Manual page useradd(8) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mNote:[22mAvoid this option on the command line because the password (or[m
-[7m Manual page useradd(8) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           encrypted password) will be visible by users listing the processes.[m
-[7m Manual page useradd(8) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You should make sure the password respects the system's password[m
-[7m Manual page useradd(8) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           policy.[m
-[7m Manual page useradd(8) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[22m, [1m--system[0m[m
-[7m Manual page useradd(8) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Create a system account.[m
-[7m Manual page useradd(8) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 169 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           System users will be created with no aging information in[m
-[7m Manual page useradd(8) line 170 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/shadow, and their numeric identifiers are chosen in the[m
-[7m Manual page useradd(8) line 171 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mSYS_UID_MIN[22m-[1mSYS_UID_MAX [22mrange, defined in /etc/login.defs, instead[m
-[7m Manual page useradd(8) line 172 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           of [1mUID_MIN[22m-[1mUID_MAX [22m(and their [1mGID [22mcounterparts for the creation of[m
-[7m Manual page useradd(8) line 173 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           groups).[m
-[7m Manual page useradd(8) line 174 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 175 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that [1museradd [22mwill not create a home directory for such a user,[m
-[7m Manual page useradd(8) line 176 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           regardless of the default setting in /etc/login.defs ([1mCREATE_HOME[22m).[m
-[7m Manual page useradd(8) line 177 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You have to specify the [1m-m [22moptions if you want a home directory for[m
-[7m Manual page useradd(8) line 178 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           a system account to be created.[m
-[7m Manual page useradd(8) line 179 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 180 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that this option will not update /etc/subuid and /etc/subgid.[m
-[7m Manual page useradd(8) line 181 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You have to specify the [1m-F [22moptions if you want to update the files[m
-[7m Manual page useradd(8) line 182 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           for a system account to be created.[m
-[7m Manual page useradd(8) line 183 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 184 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[22m, [1m--root [4m[22mCHROOT_DIR[0m[m
-[7m Manual page useradd(8) line 185 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mCHROOT_DIR[24m directory and use the configuration[m
-[7m Manual page useradd(8) line 186 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           files from the [4mCHROOT_DIR[24m directory. Only absolute paths are[m
-[7m Manual page useradd(8) line 187 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           supported.[m
-[7m Manual page useradd(8) line 188 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 189 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[22m, [1m--prefix [4m[22mPREFIX_DIR[0m[m
-[7m Manual page useradd(8) line 190 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes to configuration files under the root filesystem[m
-[7m Manual page useradd(8) line 191 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           found under the directory [4mPREFIX_DIR[24m. This option does not chroot[m
-[7m Manual page useradd(8) line 192 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and is intended for preparing a cross-compilation target. Some[m
-[7m Manual page useradd(8) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           limitations: NIS and LDAP users/groups are not verified. PAM[m
-[7m Manual page useradd(8) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           authentication is using the host files. No SELINUX support.[m
-[7m Manual page useradd(8) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 196 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[22m, [1m--shell [4m[22mSHELL[0m[m
-[7m Manual page useradd(8) line 197 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           sets the path to the user's login shell. Without this option, the[m
-[7m Manual page useradd(8) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system will use the [1mSHELL [22mvariable specified in[m
-[7m Manual page useradd(8) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/default/useradd, or, if that is as well not set, the field for[m
-[7m Manual page useradd(8) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the login shell in /etc/passwd remains empty.[m
-[7m Manual page useradd(8) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[22m, [1m--uid [4m[22mUID[0m[m
-[7m Manual page useradd(8) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The numerical value of the user's ID. This value must be unique,[m
-[7m Manual page useradd(8) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           unless the [1m-o [22moption is used. The value must be non-negative. The[m
-[7m Manual page useradd(8) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           default is to use the smallest ID value greater than or equal to[m
-[7m Manual page useradd(8) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mUID_MIN [22mand greater than every other user.[m
-[7m Manual page useradd(8) line 207 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 208 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           See also the [1m-r [22moption and the [1mUID_MAX [22mdescription.[m
-[7m Manual page useradd(8) line 209 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 210 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-U[22m, [1m--user-group[0m[m
-[7m Manual page useradd(8) line 211 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Create a group with the same name as the user, and add the user to[m
-[7m Manual page useradd(8) line 212 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           this group.[m
-[7m Manual page useradd(8) line 213 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 214 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions are not[m
-[7m Manual page useradd(8) line 215 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified) is defined by the [1mUSERGROUPS_ENAB [22mvariable in[m
-[7m Manual page useradd(8) line 216 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/login.defs.[m
-[7m Manual page useradd(8) line 217 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 218 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Z[22m, [1m--selinux-user [4m[22mSEUSER[0m[m
-[7m Manual page useradd(8) line 219 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           defines the SELinux user for the new account. Without this option,[m
-[7m Manual page useradd(8) line 220 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           a SELinux uses the default user. Note that the shadow system[m
-[7m Manual page useradd(8) line 221 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           doesn't store the selinux-user, it uses [1msemanage[22m(8) for that.[m
-[7m Manual page useradd(8) line 222 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 223 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mChanging the default values[0m[m
-[7m Manual page useradd(8) line 224 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       When invoked with only the [1m-D [22moption, [1museradd [22mwill display the current[m
-[7m Manual page useradd(8) line 225 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       default values. When invoked with [1m-D [22mplus other options, [1museradd [22mwill[m
-[7m Manual page useradd(8) line 226 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       update the default values for the specified options. Valid[m
-[7m Manual page useradd(8) line 227 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       default-changing options are:[m
-[7m Manual page useradd(8) line 228 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page useradd(8) line 229 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[22m, [1m--base-dir [4m[22mBASE_DIR[0m[m
-[7m Manual page useradd(8) line 230 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           sets the path prefix for a new user's home directory. The user's[m
-[7m Manual page useradd(8) line 231 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           name will be affixed to the end of [4mBASE_DIR[24m to form the new user's[m
-[7m Manual page useradd(8) line 232 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ man useradd nano add_usr.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 7.2                       add_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d[39m(B[mUSER[32m=[39m(B[myokeh[4dGROUP[32m=[39m(B[madmin[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"create user $USER"[6d[39m(B[museradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [2d[49m(B[m[?12l[?25h[?25l[1;49H(B[0;7m*[79G(B[m7[2;21r8[2dM[1;24r[3;1H[?12l[?25h[?25l[2;21r[21;1H
-[1;24r[2;1H[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25hG[?25l[?12l[?25h[?25l[?12l[?25h@GROUP[32m=[39m(B[madmin@[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[31m$GROUP(B[0m[32m=[39m(B[madmin[C[?25l[?12l[?25hGROUP[1P[?25l[?12l[?25h[36m#GROUP=admin#[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25hR[?25l[?12l[?25h[C[?25l[?12l[?25hy[?25l[?12l[?25ho[?25l[?12l[?25hk[?25l[22d[K[?12l[?25h[3;10H[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 5 lines ](B[m[?12l[?25h[3;10H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano add_usr.sh[1P add_usr.sh[1P add_usr.sh[1P add_usr.sh[1P add_usr.shb add_usr.sha add_usr.shs add_usr.shg add_usr.sh[1P add_usr.shh add_usr.sh
-[?2004lcreate user test
-useradd: Permission denied.
-useradd: cannot lock /etc/passwd; try again later.
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ bash add_usr.shnano[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 7.2                       add_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d[39m(B[mUSER[32m=[39m(B[mtest[4d[36m#GROUP=admin[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"create user $USER"[6d[39m(B[museradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [2d[49m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[6dsuseradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [C[49m(B[m[?25l[?12l[?25huuseradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [3G[49m(B[m[?25l[?12l[?25hduseradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [4G[49m(B[m[?25l[?12l[?25houseradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [5G[49m(B[m[?25l[?12l[?25h useradd (B[0;1m[31m$USER[35m -d[39m(B[m /home/(B[0;1m[31m$USER[35m -m(B[0m[42m [6G[49m(B[m[?25l[22;33H (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 5 lines ](B[m[?12l[?25h[6;6H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano add_usr.shbash[C[C[C[C[C[C[C[C[C[C[C
-[?2004lcreate user test
-[sudo] password for yokeh: 
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd /
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: /[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/[00m$ ll
-[?2004ltotal 4194404
-drwxr-xr-x  23 root root       4096 Apr 27 18:20 [0m[01;34m.[0m/
-drwxr-xr-x  23 root root       4096 Apr 27 18:20 [01;34m..[0m/
-lrwxrwxrwx   1 root root          7 Apr 22 17:08 [01;36mbin[0m -> [01;34musr/bin[0m/
-drwxr-xr-x   2 root root       4096 Feb 26 16:58 [01;34mbin.usr-is-merged[0m/
-drwxr-xr-x   3 root root       4096 Apr 27 18:20 [01;34mboot[0m/
-dr-xr-xr-x   2 root root       4096 Apr 27 18:16 [01;34mcdrom[0m/
-drwxr-xr-x  19 root root       4140 May 30 21:26 [01;34mdev[0m/
-drwxr-xr-x 141 root root      12288 May 30 22:08 [01;34metc[0m/
-drwxr-xr-x   4 root root       4096 May 30 22:08 [01;34mhome[0m/
-lrwxrwxrwx   1 root root          7 Apr 22 17:08 [01;36mlib[0m -> [01;34musr/lib[0m/
-lrwxrwxrwx   1 root root          9 Apr 22 17:08 [01;36mlib64[0m -> [01;34musr/lib64[0m/
-drwxr-xr-x   2 root root       4096 Apr  8 18:37 [01;34mlib.usr-is-merged[0m/
-drwx------   2 root root      16384 Apr 27 18:18 [01;34mlost+found[0m/
-drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34mmedia[0m/
-drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34mmnt[0m/
-drwxr-xr-x   3 root root       4096 May  2 17:56 [01;34mopt[0m/
-dr-xr-xr-x 292 root root          0 May 30 21:21 [01;34mproc[0m/
-drwx------   5 root root       4096 Apr 27 18:21 [01;34mroot[0m/
-drwxr-xr-x  39 root root       1000 May 30 22:07 [01;34mrun[0m/
-lrwxrwxrwx   1 root root          8 Apr 22 17:08 [01;36msbin[0m -> [01;34musr/sbin[0m/
-drwxr-xr-x   2 root root       4096 Mar 31 13:00 [01;34msbin.usr-is-merged[0m/
-drwxr-xr-x  13 root root       4096 May  2 17:32 [01;34msnap[0m/
-drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34msrv[0m/
--rw-------   1 root root 4294967296 Apr 27 18:20 swap.img
-dr-xr-xr-x  13 root root          0 May 30 21:21 [01;34msys[0m/
-drwxrwxrwt  18 root root       4096 May 30 22:07 [30;42mtmp[0m/
-drwxr-xr-x  12 root root       4096 Apr 24 14:47 [01;34musr[0m/
-drwxr-xr-x  14 root root       4096 Apr 27 18:21 [01;34mvar[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: /[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/[00m$ cd e[Khome/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ ll
-[?2004ltotal 16
-drwxr-xr-x  4 root  root  4096 May 30 22:08 [0m[01;34m.[0m/
-drwxr-xr-x 23 root  root  4096 Apr 27 18:20 [01;34m..[0m/
-drwxr-x---  2 test  test  4096 May 30 22:08 [01;34mtest[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34myokeh[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ cd test/
-[?2004lbash: cd: test/: Permission denied
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ sudo tesa[Kt/
-[?2004lsudo: test/: command not found
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ sudo test/ctest/dtest/ test/
-[?2004lsudo: cd: command not found
-sudo: "cd" is a shell built-in command, it cannot be run directly.
-sudo: the -s option may be used to run a privileged shell.
-sudo: the -D option may be used to run a command in a specific directory.
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ sudo cd test/[C[1P[1P
-[?2004lsu: user cd does not exist or the user entry does not contain all the required fields
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ su cd test/[2@do[C[C[C[C[C[C[C[C[C[3Ptest/[2Pcd[C[C[C[C[C[C[K[K[K[K[K[K[K[Kcd[K[K;;
-[?2004lbash: syntax error near unexpected token `;;'
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ c[Kll
-[?2004ltotal 16
-drwxr-xr-x  4 root  root  4096 May 30 22:08 [0m[01;34m.[0m/
-drwxr-xr-x 23 root  root  4096 Apr 27 18:20 [01;34m..[0m/
-drwxr-x---  2 test  test  4096 May 30 22:08 [01;34mtest[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34myokeh[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ cd yokeh/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ ll
-[?2004ltotal 93512
-drwxr-x--- 20 yokeh yokeh     4096 May 30 22:07 [0m[01;34m.[0m/
-drwxr-xr-x  4 root  root      4096 May 30 22:08 [01;34m..[0m/
--rw-------  1 yokeh yokeh    14286 May 22 20:16 .bash_history
--rw-r--r--  1 yokeh yokeh      220 Mar 31 12:41 .bash_logout
--rw-r--r--  1 yokeh yokeh     3835 May  4 18:54 .bashrc
-drwx------ 12 yokeh yokeh     4096 May  5 19:29 [01;34m.cache[0m/
-drwx------ 16 yokeh yokeh     4096 May  5 19:29 [01;34m.config[0m/
-drwxr-xr-x  6 yokeh yokeh     4096 May  4 14:30 [01;34mDesktop[0m/
-drwx------  3 yokeh yokeh     4096 May  3 21:31 [01;34m.docker[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mDocuments[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 May  6 20:51 [01;34mDownloads[0m/
--rw-rw-r--  1 yokeh yokeh       56 May  2 15:52 .gitconfig
-drwxr-xr-x  3 yokeh yokeh     4096 May  4 12:12 [01;34m.kube[0m/
--rw-------  1 yokeh yokeh       20 May 30 22:07 .lesshst
-drwx------  4 yokeh yokeh     4096 Apr 27 18:21 [01;34m.local[0m/
-drwxr-xr-x 10 yokeh yokeh     4096 May  6 16:01 [01;34m.minikube[0m/
--rwxrwxr-x  1 yokeh yokeh 95637096 May  6 15:53 [01;32mminikube[0m*
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mMusic[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPictures[0m/
--rw-r--r--  1 yokeh yokeh      807 Mar 31 12:41 .profile
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPublic[0m/
-drwx------  6 yokeh yokeh     4096 May  2 17:32 [01;34msnap[0m/
-drwx------  2 yokeh yokeh     4096 May 30 21:37 [01;34m.ssh[0m/
-drwxrwxr-x  2 yokeh yokeh     4096 May 30 21:26 [01;34m.ssh_backup[0m/
-drwxrwxr-x  3 yokeh yokeh     4096 May 30 22:08 [01;34msshkeys[0m/
--rw-r--r--  1 yokeh yokeh        0 Apr 27 19:10 .sudo_as_admin_successful
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mTemplates[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mVideos[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd sshkeys/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ll
-[?2004ltotal 120
-drwxrwxr-x  3 yokeh yokeh  4096 May 30 22:08 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh  4096 May 30 22:07 [01;34m..[0m/
--rw-rw-r--  1 yokeh yokeh    98 May 30 22:08 add_usr.sh
-drwxrwxr-x  8 yokeh yokeh  4096 May 30 21:39 [01;34m.git[0m/
--rw-rw-r--  1 yokeh yokeh   212 May 30 21:36 script.sh
--rw-rw-r--  1 yokeh yokeh 90112 May 30 22:09 typescript
--rw-r--r--  1 yokeh yokeh   107 May 30 21:38 ubuntu_vm.pub
--rw-rw-r--  1 yokeh yokeh   576 May 30 21:23 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ c[Knna[K[Kano del_usr.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                       del_usr.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[2d[32m$[39m(B[m[?25l[?12l[?25h[K[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[36m1[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m![39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hU[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25hR[?25l[22d[K[?12l[?25h[3;5H[32m=[39m(B[m[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[4d[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33mD"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ml"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mu"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h[C[?25l[5d[?12l[?25h[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h d[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h U[?25l[?12l[?25hS[?25l[?12l[?25hE[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m#"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mU"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mS"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mE"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mR"[39m(B[m[?25l[?12l[?25h[5d[?25l[?12l[?25h(B[0;1m[31m$U[39m(B[m[?25l[?12l[?25h(B[0;1m[31mS[39m(B[m[?25l[?12l[?25h(B[0;1m[31mE[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 4 lines ](B[m[?12l[?25h[5;19H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano del_usr.sh[1P del_usr.sh[1P del_usr.sh[1P del_usr.sh[1P del_usr.shb del_usr.sha del_usr.shs del_usr.shg del_usr.sh
-[?2004lCommand 'basg' not found, did you mean:
-  command 'bamg' from deb rheolef (7.2-3build3)
-  command 'bash' from deb bash (5.2.21-2ubuntu1)
-Try: sudo apt install <deb name>
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ basg del_usr.sh[C[1P del_usr.shh del_usr.sh
-[?2004lDel test
-info: Removing crontab ...
-info: Removing user `test' ...
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git add -A
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git commit -a -m ""a"d"d"/"d"e"l" "u"s"e"r"
-[?2004l[master 7b84ebb] add/del user
- 3 files changed, 447 insertions(+), 1 deletion(-)
- create mode 100644 add_usr.sh
- create mode 100644 del_usr.sh
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ git push
-[?2004lEnumerating objects: 7, done.
-Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
-Delta compression using up to 4 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 11.84 KiB | 5.92 MiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:Yokehs/sshkeys.git
-   ee3ec55..7b84ebb  master -> master
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd '[K/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: /[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/[00m$ ll
-[?2004ltotal 4194404
-drwxr-xr-x  23 root root       4096 Apr 27 18:20 [0m[01;34m.[0m/
-drwxr-xr-x  23 root root       4096 Apr 27 18:20 [01;34m..[0m/
-lrwxrwxrwx   1 root root          7 Apr 22 17:08 [01;36mbin[0m -> [01;34musr/bin[0m/
-drwxr-xr-x   2 root root       4096 Feb 26 16:58 [01;34mbin.usr-is-merged[0m/
-drwxr-xr-x   3 root root       4096 Apr 27 18:20 [01;34mboot[0m/
-dr-xr-xr-x   2 root root       4096 Apr 27 18:16 [01;34mcdrom[0m/
-drwxr-xr-x  19 root root       4140 May 30 21:26 [01;34mdev[0m/
-drwxr-xr-x 141 root root      12288 May 30 22:11 [01;34metc[0m/
-drwxr-xr-x   4 root root       4096 May 30 22:08 [01;34mhome[0m/
-lrwxrwxrwx   1 root root          7 Apr 22 17:08 [01;36mlib[0m -> [01;34musr/lib[0m/
-lrwxrwxrwx   1 root root          9 Apr 22 17:08 [01;36mlib64[0m -> [01;34musr/lib64[0m/
-drwxr-xr-x   2 root root       4096 Apr  8 18:37 [01;34mlib.usr-is-merged[0m/
-drwx------   2 root root      16384 Apr 27 18:18 [01;34mlost+found[0m/
-drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34mmedia[0m/
-drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34mmnt[0m/
-drwxr-xr-x   3 root root       4096 May  2 17:56 [01;34mopt[0m/
-dr-xr-xr-x 294 root root          0 May 30 21:21 [01;34mproc[0m/
-drwx------   5 root root       4096 Apr 27 18:21 [01;34mroot[0m/
-drwxr-xr-x  39 root root       1020 May 30 22:11 [01;34mrun[0m/
-lrwxrwxrwx   1 root root          8 Apr 22 17:08 [01;36msbin[0m -> [01;34musr/sbin[0m/
-drwxr-xr-x   2 root root       4096 Mar 31 13:00 [01;34msbin.usr-is-merged[0m/
-drwxr-xr-x  13 root root       4096 May  2 17:32 [01;34msnap[0m/
-drwxr-xr-x   2 root root       4096 Apr 24 14:47 [01;34msrv[0m/
--rw-------   1 root root 4294967296 Apr 27 18:20 swap.img
-dr-xr-xr-x  13 root root          0 May 30 22:08 [01;34msys[0m/
-drwxrwxrwt  18 root root       4096 May 30 22:07 [30;42mtmp[0m/
-drwxr-xr-x  12 root root       4096 Apr 24 14:47 [01;34musr[0m/
-drwxr-xr-x  14 root root       4096 Apr 27 18:21 [01;34mvar[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: /[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/[00m$ cd home/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ ;;
-[?2004lbash: syntax error near unexpected token `;;'
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ ll
-[?2004ltotal 16
-drwxr-xr-x  4 root  root  4096 May 30 22:08 [0m[01;34m.[0m/
-drwxr-xr-x 23 root  root  4096 Apr 27 18:20 [01;34m..[0m/
-drwxr-x---  2  1001  1001 4096 May 30 22:08 [01;34mtest[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34myokeh[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ rm test/[K
-[?2004lrm: cannot remove 'test': Is a directory
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ rm testll[K;;llrm testll[K;;cd home/[K[K[K[K[K[K[K[Kll
-[?2004ltotal 16
-drwxr-xr-x  4 root  root  4096 May 30 22:08 [0m[01;34m.[0m/
-drwxr-xr-x 23 root  root  4096 Apr 27 18:20 [01;34m..[0m/
-drwxr-x---  2  1001  1001 4096 May 30 22:08 [01;34mtest[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34myokeh[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: /home[01;32myokeh@yokeh-VirtualBox[00m:[01;34m/home[00m$ cd yokeh/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ ll
-[?2004ltotal 93512
-drwxr-x--- 20 yokeh yokeh     4096 May 30 22:07 [0m[01;34m.[0m/
-drwxr-xr-x  4 root  root      4096 May 30 22:08 [01;34m..[0m/
--rw-------  1 yokeh yokeh    14286 May 22 20:16 .bash_history
--rw-r--r--  1 yokeh yokeh      220 Mar 31 12:41 .bash_logout
--rw-r--r--  1 yokeh yokeh     3835 May  4 18:54 .bashrc
-drwx------ 12 yokeh yokeh     4096 May  5 19:29 [01;34m.cache[0m/
-drwx------ 16 yokeh yokeh     4096 May  5 19:29 [01;34m.config[0m/
-drwxr-xr-x  6 yokeh yokeh     4096 May  4 14:30 [01;34mDesktop[0m/
-drwx------  3 yokeh yokeh     4096 May  3 21:31 [01;34m.docker[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mDocuments[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 May  6 20:51 [01;34mDownloads[0m/
--rw-rw-r--  1 yokeh yokeh       56 May  2 15:52 .gitconfig
-drwxr-xr-x  3 yokeh yokeh     4096 May  4 12:12 [01;34m.kube[0m/
--rw-------  1 yokeh yokeh       20 May 30 22:07 .lesshst
-drwx------  4 yokeh yokeh     4096 Apr 27 18:21 [01;34m.local[0m/
-drwxr-xr-x 10 yokeh yokeh     4096 May  6 16:01 [01;34m.minikube[0m/
--rwxrwxr-x  1 yokeh yokeh 95637096 May  6 15:53 [01;32mminikube[0m*
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mMusic[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPictures[0m/
--rw-r--r--  1 yokeh yokeh      807 Mar 31 12:41 .profile
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPublic[0m/
-drwx------  6 yokeh yokeh     4096 May  2 17:32 [01;34msnap[0m/
-drwx------  2 yokeh yokeh     4096 May 30 21:37 [01;34m.ssh[0m/
-drwxrwxr-x  2 yokeh yokeh     4096 May 30 21:26 [01;34m.ssh_backup[0m/
-drwxrwxr-x  3 yokeh yokeh     4096 May 30 22:11 [01;34msshkeys[0m/
--rw-r--r--  1 yokeh yokeh        0 Apr 27 19:10 .sudo_as_admin_successful
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mTemplates[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mVideos[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd sshkeys/
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ ll
-[?2004ltotal 136
-drwxrwxr-x  3 yokeh yokeh   4096 May 30 22:11 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh   4096 May 30 22:07 [01;34m..[0m/
--rw-rw-r--  1 yokeh yokeh     98 May 30 22:08 add_usr.sh
--rw-rw-r--  1 yokeh yokeh     57 May 30 22:11 del_usr.sh
-drwxrwxr-x  8 yokeh yokeh   4096 May 30 22:12 [01;34m.git[0m/
--rw-rw-r--  1 yokeh yokeh    212 May 30 21:36 script.sh
--rw-rw-r--  1 yokeh yokeh 102400 May 30 22:15 typescript
--rw-r--r--  1 yokeh yokeh    107 May 30 21:38 ubuntu_vm.pub
--rw-rw-r--  1 yokeh yokeh    576 May 30 21:23 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[16de[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25hechop[?25l[22d[K[?12l[?25h[16d(B[0;1m[34mecho[39m(B[m[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33ma"[39m(B[m[?25l[?12l[?25h(B[0;1m[33md"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mdd"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33mi"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mn"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33ma"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mu"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mt"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mh"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mo"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mr"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mi"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mz"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33md"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m_"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mk"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33my"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m[?25l[?12l[?25h[C[?25l[17d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h *[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hca[K[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[17d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cat *.pub
-[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsxovMXH/lBUGDiOtAlvdmc46pDJxDnjGgDUnNgdgE6 starkovkonstantin@mail.ru
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrp5Ml/F2eO7FOCDvduHtZRqLUpmBUP5QcdzFuEn0nT4lQOOie4Yhk6EnnC/DosNUvbVDCCpVAwrUAgp375Kp5Fct74SbBf3wjENhLFICGWfe8x7l0GUUur0S4C0tsUEbC1SkO3ObQtui2dCuJY4tWCaO9ZZWrKPcmhe/RBJt+aLKF8Zxwt4QkVwD6b+mUlnjgEcmLX12glNn/0A5oB/lOy0m63EB1QP7qpcoz9r3xeUP7dX50QhpA95jK4rTFzZRuNPzjJajJNUtqzXC2PLBw39/w/yrK7bn7OWEgEaTZW90Lw9/0vhtwP4x4BQ0LYV1tewrnYzb2m8LKTiPv9lmVgBSCdKjkELYB+b/vPoiQncnfwOtqQuXw1thNPv0+ZEtKCzeICC4XZFLuJ5nnBcoWNBYPt34pisRDSkbaS+gavnfU1BrFQF1itMXA5CMhOuQTqsDVb55FDvA/EBsr3iRsLiLuKD07CIPQodLRwtvl7q7RtcwZy/7gR2ISQLVP9aE= Kostya@DESKTOP-OGOLGO6
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cat *.pubnano script.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 17 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[16d[34mecho[39m(B[m (B[0;1m[33m"add in authorized_keys"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[A[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[17dc[?25l[?12l[?25ha[?25l[22d[K[?12l[?25h[17d(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h *[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m>[39m(B[m[?25l[?12l[?25h[32m>[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33mDdd in authorized_keys"[8G[39m(B[m[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33mAdd in authorized_keys"[8G[39m(B[m[?25l[?12l[?25h[17d[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;19H[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h /[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25hz[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h_[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hy[?25l[?12l[?25hs[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h/[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hz[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h_[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;15H[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;15H[?25l[?12l[?25h[18d[?25l[?12l[?25h[17;15H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[36m#cat *.pub >> $DIR/authorized_keys#[39m(B[m[?25l[?12l[?25h[18d[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h @[?25l[?12l[?25h#[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$D[39m(B[m[?25l[?12l[?25h(B[0;1m[31mI[39m(B[m[?25l[?12l[?25h(B[0;1m[31mR[39m(B[m[?25l[?12l[?25h/[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hz[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h_[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hy[?25l[?12l[?25hs[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[18;25H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh [6Pcat *.pubnano script.sh ll[Knano script.sh [C[1P[1P[1P[1P[1@b[1@a[1@s[1@g
-[?2004lCommand 'basg' not found, did you mean:
-  command 'bash' from deb bash (5.2.21-2ubuntu1)
-  command 'bamg' from deb rheolef (7.2-3build3)
-Try: sudo apt install <deb name>
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ basg script.sh [1P[1@h
-[?2004lRunning Script
-Check /home/yokeh/.ssh/
-Dir= /home/yokeh/.ssh/ is assigned
-Copy keys
-Done
-Add in authorized_keys
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ bash script.sh g[C[C[C[C[C[C[C[C[C[C[Cnano[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 17 lines ](B[m[H(B[0;7m  GNU nano 7.2                        script.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m'Running Script'[4d[39m(B[mDIR[32m=[39m(B[m~/.ssh/[5dKEYS[32m=[39m(B[m*.pub[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Check $DIR"[7d(B[0m[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[31m$DIR[39m(B[m [32m];[39m(B[m [32mthen[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Make dir $DIR"[9d[34mmkdir[39m(B[m (B[0;1m[31m$DIR[10d(B[0m[32melse[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Dir= $DIR is assigned"[12d(B[0m[32mfi[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Copy keys"[14d[34mcp[39m(B[m (B[0;1m[31m$KEYS[39m(B[m (B[0;1m[31m$DIR[15d[34mecho[39m(B[m (B[0;1m[33m"Done"[16d[34mecho[39m(B[m (B[0;1m[33m"Add in authorized_keys"[17d(B[0m[36m#cat *.pub >> $DIR/authorized_keys[18d(B[0;1m[34mcat[39m(B[m (B[0;1m[31m$DIR[39m(B[m/authorized_keys[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[1;49H(B[0;7m*[22d(B[m[K[1;79H[?12l[?25h[18d[36m#cat $DIR/authorized_keys#[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m *.pub [32m>>[39m(B[m (B[0;1m[31m$DIR[39m(B[m/authorized_keys[K[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[A[?25l7[18;22r8M[1;24r[19;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25hp[?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25hech[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[18;22r[22;1H
-[1;24r[17;34H[?12l[?25h[?25l[?12l[?25h[18;26H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m (B[0;1m[31m$DIR[39m(B[m/authorized_keys[K[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[18d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ nano script.sh bash[C[C[C[C[C[C[C[C[C[C[C
-[?2004lRunning Script
-Check /home/yokeh/.ssh/
-Dir= /home/yokeh/.ssh/ is assigned
-Copy keys
-Done
-Add in authorized_keys
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsxovMXH/lBUGDiOtAlvdmc46pDJxDnjGgDUnNgdgE6 starkovkonstantin@mail.ru
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrp5Ml/F2eO7FOCDvduHtZRqLUpmBUP5QcdzFuEn0nT4lQOOie4Yhk6EnnC/DosNUvbVDCCpVAwrUAgp375Kp5Fct74SbBf3wjENhLFICGWfe8x7l0GUUur0S4C0tsUEbC1SkO3ObQtui2dCuJY4tWCaO9ZZWrKPcmhe/RBJt+aLKF8Zxwt4QkVwD6b+mUlnjgEcmLX12glNn/0A5oB/lOy0m63EB1QP7qpcoz9r3xeUP7dX50QhpA95jK4rTFzZRuNPzjJajJNUtqzXC2PLBw39/w/yrK7bn7OWEgEaTZW90Lw9/0vhtwP4x4BQ0LYV1tewrnYzb2m8LKTiPv9lmVgBSCdKjkELYB+b/vPoiQncnfwOtqQuXw1thNPv0+ZEtKCzeICC4XZFLuJ5nnBcoWNBYPt34pisRDSkbaS+gavnfU1BrFQF1itMXA5CMhOuQTqsDVb55FDvA/EBsr3iRsLiLuKD07CIPQodLRwtvl7q7RtcwZy/7gR2ISQLVP9aE= Kostya@DESKTOP-OGOLGO6
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/sshkeys[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/sshkeys[00m$ cd ..
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ ll
-[?2004ltotal 93512
-drwxr-x--- 20 yokeh yokeh     4096 May 30 22:07 [0m[01;34m.[0m/
-drwxr-xr-x  4 root  root      4096 May 30 22:08 [01;34m..[0m/
--rw-------  1 yokeh yokeh    14286 May 22 20:16 .bash_history
--rw-r--r--  1 yokeh yokeh      220 Mar 31 12:41 .bash_logout
--rw-r--r--  1 yokeh yokeh     3835 May  4 18:54 .bashrc
-drwx------ 12 yokeh yokeh     4096 May  5 19:29 [01;34m.cache[0m/
-drwx------ 16 yokeh yokeh     4096 May  5 19:29 [01;34m.config[0m/
-drwxr-xr-x  6 yokeh yokeh     4096 May  4 14:30 [01;34mDesktop[0m/
-drwx------  3 yokeh yokeh     4096 May  3 21:31 [01;34m.docker[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mDocuments[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 May  6 20:51 [01;34mDownloads[0m/
--rw-rw-r--  1 yokeh yokeh       56 May  2 15:52 .gitconfig
-drwxr-xr-x  3 yokeh yokeh     4096 May  4 12:12 [01;34m.kube[0m/
--rw-------  1 yokeh yokeh       20 May 30 22:07 .lesshst
-drwx------  4 yokeh yokeh     4096 Apr 27 18:21 [01;34m.local[0m/
-drwxr-xr-x 10 yokeh yokeh     4096 May  6 16:01 [01;34m.minikube[0m/
--rwxrwxr-x  1 yokeh yokeh 95637096 May  6 15:53 [01;32mminikube[0m*
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mMusic[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPictures[0m/
--rw-r--r--  1 yokeh yokeh      807 Mar 31 12:41 .profile
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mPublic[0m/
-drwx------  6 yokeh yokeh     4096 May  2 17:32 [01;34msnap[0m/
-drwx------  2 yokeh yokeh     4096 May 30 22:19 [01;34m.ssh[0m/
-drwxrwxr-x  2 yokeh yokeh     4096 May 30 21:26 [01;34m.ssh_backup[0m/
-drwxrwxr-x  3 yokeh yokeh     4096 May 30 22:20 [01;34msshkeys[0m/
--rw-r--r--  1 yokeh yokeh        0 Apr 27 19:10 .sudo_as_admin_successful
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mTemplates[0m/
-drwxr-xr-x  2 yokeh yokeh     4096 Apr 27 18:21 [01;34mVideos[0m/
-[?2004h]0;yokeh@yokeh-VirtualBox: ~[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~[00m$ cd .ssh
-[?2004l[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ ll
-[?2004ltotal 36
-drwx------  2 yokeh yokeh 4096 May 30 22:19 [0m[01;34m.[0m/
-drwxr-x--- 20 yokeh yokeh 4096 May 30 22:07 [01;34m..[0m/
--rw-------  1 yokeh yokeh  683 May 30 22:20 authorized_keys
--rw-------  1 yokeh yokeh  419 May  2 15:54 id_ed25519
--rw-r--r--  1 yokeh yokeh  107 May  2 15:54 id_ed25519.pub
--rw-------  1 yokeh yokeh  978 May  2 16:01 known_hosts
--rw-r--r--  1 yokeh yokeh  142 May  2 16:01 [00;90mknown_hosts.old[0m
--rw-r--r--  1 yokeh yokeh  107 May 30 22:20 ubuntu_vm.pub
--rw-rw-r--  1 yokeh yokeh  576 May 30 22:20 win_main.pub
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ cat authorized_keys 
-[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsxovMXH/lBUGDiOtAlvdmc46pDJxDnjGgDUnNgdgE6 starkovkonstantin@mail.ru
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrp5Ml/F2eO7FOCDvduHtZRqLUpmBUP5QcdzFuEn0nT4lQOOie4Yhk6EnnC/DosNUvbVDCCpVAwrUAgp375Kp5Fct74SbBf3wjENhLFICGWfe8x7l0GUUur0S4C0tsUEbC1SkO3ObQtui2dCuJY4tWCaO9ZZWrKPcmhe/RBJt+aLKF8Zxwt4QkVwD6b+mUlnjgEcmLX12glNn/0A5oB/lOy0m63EB1QP7qpcoz9r3xeUP7dX50QhpA95jK4rTFzZRuNPzjJajJNUtqzXC2PLBw39/w/yrK7bn7OWEgEaTZW90Lw9/0vhtwP4x4BQ0LYV1tewrnYzb2m8LKTiPv9lmVgBSCdKjkELYB+b/vPoiQncnfwOtqQuXw1thNPv0+ZEtKCzeICC4XZFLuJ5nnBcoWNBYPt34pisRDSkbaS+gavnfU1BrFQF1itMXA5CMhOuQTqsDVb55FDvA/EBsr3iRsLiLuKD07CIPQodLRwtvl7q7RtcwZy/7gR2ISQLVP9aE= Kostya@DESKTOP-OGOLGO6
-[?2004h]0;yokeh@yokeh-VirtualBox: ~/.ssh[01;32myokeh@yokeh-VirtualBox[00m:[01;34m~/.ssh[00m$ exit
-[?2004lexit
-
-Script done on 2024-05-30 22:21:25+04:00 [COMMAND_EXIT_CODE="0"]

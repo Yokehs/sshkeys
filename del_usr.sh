@@ -1,4 +1,4 @@
 #!/bin/ssh
 USER=test
 echo "Del $USER"
-sudo deluser $USER
+sudo deluser $USER --remove-home
